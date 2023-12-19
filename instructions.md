@@ -58,20 +58,25 @@ Esta actividad tiene como objetivos:
 # ✅ Indicadores de cumplimiento
 
 1. Sintaxis y semántica de Ruby:
+
    - El código debe estar escrito utilizando la sintaxis correcta de Ruby.
    - Se deben utilizar las convenciones de nomenclatura adecuadas de Ruby.
 
 2. Uso de RuboCop:
+
    - Se debe utilizar RuboCop como herramienta de análisis estático para mejorar la calidad del código Ruby.
 
 3. Programación orientada a objetos:
+
    - Deben aplicarse los conceptos fundamentales de la programación orientada a objetos, como encapsulación, herencia, polimorfismo y abstracción.
    - El código debe ser modular, reutilizable y fácil de mantener.
 
 4. Uso de polimorfismo en lugar de banderas booleanas:
+
    - Deben identificarse situaciones en las que se utilizan banderas booleanas y reemplazarlas por polimorfismo.
 
 5. Desarrollo basado en pruebas:
+
    - Se deben desarrollar pruebas unitarias y funcionales utilizando RSpec y/o MiniTest.
    - Las pruebas deben garantizar la calidad y robustez del código.
 
@@ -122,8 +127,11 @@ Este Desafío de Codificación se trata de calcular la siguiente generación del
 Comienzas con una cuadrícula bidimensional de células, donde cada célula está viva o muerta. En esta versión del problema, la cuadrícula es finita y ninguna vida puede existir más allá de los bordes. Al calcular la siguiente generación de la cuadrícula, sigue estas reglas:
 
 1. Cualquier célula viva con menos de dos vecinos vivos muere, como si fuera por falta de población.
+
 2. Cualquier célula viva con más de tres vecinos vivos muere, como si fuera por sobre-población.
+
 3. Cualquier célula viva con dos o tres vecinos vivos sobrevive a la siguiente generación.
+
 4. Cualquier célula muerta con exactamente tres vecinos vivos se convierte en una célula viva.
 
 Debes escribir un programa que acepte una cuadrícula arbitraria de células y muestre como resultado una cuadrícula similar que muestre la siguiente generación.
@@ -157,10 +165,12 @@ Generation 2:
 # 🚨 Requerimientos no funcionales
 
 - Calidad:
+
   - Aplicar el estilo de código definido por la comunidad, utilizando RuboCop como herramienta de apoyo.
   - Incluir pruebas unitarias para garantizar la calidad del código.
 
 - Desempeño y escalabilidad:
+
   - Permitir la ejecución desde la línea de comandos y mostrar la salida en la consola de manera eficiente y rápida.
 
 - Código fuente:
